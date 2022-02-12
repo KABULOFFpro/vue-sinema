@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="shortcut icon" href="img/svg/docLogo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -20,11 +21,14 @@
     <nav class="nav">
         <div class="container nav__container">
             <a href="" class="nav__logo"><img src="img/logo.png" alt="">CINEMAS</a>
+            <div class="nav__menu">
+                <span class="nav__menu-line"></span>
+            </div>
             <ul class="nav__list">
                 <li class="nav__item"><a href="#!" class="nav__link">Films</a></li>
                 <li class="nav__item"><a href="#!" class="nav__link">Serials</a></li>
                 <li class="nav__item"><a href="#!" class="nav__link">Cartoons</a></li>
-                <li class="nav__item"><a href="#!" class="nav__link">Collections</a></li>
+                <li class="nav__item"><a href="#collections" class="nav__link">Collections</a></li>
             </ul>
         </div>
 
@@ -95,12 +99,12 @@
             <div class="premier__content">
                 <div class="container">
                 <img class="premier__content-image" src="img/blackwidow.png" alt="">
-                <p class="oremier__content-txt">After the events at the Leipzig-Halle airport, Natasha was overtaken by the mistakes of the past. The Red Room again made itself felt - a program to create Widows - professional killers and spies - just like her. Natasha decides once and for all to deal with people whose efforts she herself became a Widow.</p>
+                <p class="premier__content-txt txt-limited">After the events at the Leipzig-Halle airport, Natasha was overtaken by the mistakes of the past. The Red Room again made itself felt - a program to create Widows - professional killers and spies - just like her. Natasha decides once and for all to deal with people whose efforts she herself became a Widow.</p>
                 <a href="#!" class="premier__content-btn btn">Watch now</a>
             </div>
             </div>
         </section>
-        <section class="collections">
+        <section class="collections" id="collections">
             <div class="container">
                 <h2 class="collections__title title">Collections</h2>
                 <div class="collections__cards">
@@ -191,5 +195,3 @@
 </body>
 
 </html>
-<!-- <a href="" class="btn">Watch now</a> -->
-<!-- <h1 class="title">kahBClib</h1> -->

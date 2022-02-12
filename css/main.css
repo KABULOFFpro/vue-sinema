@@ -16,10 +16,12 @@
 }
 *::-webkit-scrollbar {
     width: 5px;
+    height: 4px;
     background: var(--ternary-color);
 }
 *::-webkit-scrollbar-thumb {
     background: var(--secondary-color);
+    border-radius: 6px;
 }
 
 body {
@@ -178,7 +180,8 @@ a {
 .header__title {
     color: var(--primary-color);
     font-family: var(--secondary-font);
-    font-size: 64px;
+    /* font-size: 64px; */
+    font-size: calc(28px + 36 * (100vw / 1920));
     margin-bottom: 30px;
 }
 
@@ -211,6 +214,8 @@ a {
     margin-bottom: 54px;
     display: flex;
     justify-content: space-between;
+  
+    row-gap: 40px;
 }
 
 .films__card {
@@ -306,7 +311,7 @@ a {
     margin-bottom: 50px;
 }
 
-.oremier__content-txt {
+.premier__content-txt {
     font-family: var(--ternary-font);
     font-size: 18px;
     line-height: 150%;
@@ -337,7 +342,7 @@ a {
     max-width: 350px;
     width: 100%;
     position: relative;
-    border-radius: 6px;
+  
     overflow: hidden;
  
   
@@ -472,7 +477,6 @@ h3.series__card-title{
 }
 .footer{
     background: linear-gradient(90deg, #FF8C30 0%, #9F4700 100%);
-    box-shadow: ;
     padding: 24px 0;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
 
